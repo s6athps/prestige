@@ -1,0 +1,459 @@
+
+.header-section {
+    height: 131px;
+    width: 100%;
+    background: linear-gradient(to bottom, black 30.3%, white 0%);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(219, 219, 219);
+    display: flex;
+    align-items: center;
+    position: fixed;
+
+    
+
+}
+
+body {
+    margin: 0;
+}
+.logo-container{
+    background: white;
+    margin-left: 223px;
+    height: 175px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(219, 219, 219);
+    margin-top: 50px;
+}
+.logo-bird{
+    margin-top: px;
+    
+}
+
+
+.letter-inblack{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 614px;
+    margin-top: -87px;
+    font-size: large;
+    
+}
+.letter-inblack P{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 600;
+    
+}
+#about{}
+#residential{
+    padding-left: 45px;
+}
+#commercial{
+    padding-left: 45px;
+}
+#rentals{
+    padding-left: 45px;
+}
+#hospitality{
+    padding-left: 45px;
+}
+#retail{
+    padding-left: 45px;
+}
+#blog{
+    padding-left: 45px;
+}
+/*elements in white*/
+/* upcoming buttons */
+.elements-inwhite{
+    height: 70;
+    width: 400px;
+    margin-left: -374px;
+    
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+}
+.upcoming-buttonz{
+    width: 235px;
+    height: 50px;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    transform: scaleX(1.1);
+    background: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(57, 57, 57);
+}
+.upcoming-buttonz:hover{
+    background: black;
+    color: white;
+}
+.search-logo-container{
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: none;
+}
+#menu-bar{
+    height: 50px;
+    width: 50px;
+    margin-left: 16px;
+}
+.projects{
+    padding-top: 310px;
+    height: 850px;
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+}
+.projects-text-field{
+    margin-left: 220px;
+    margin-top: -133px;
+    width: 1110px;
+    height: 600px;
+    background-color: white;
+
+}
+#register-to-stay-text{
+    padding-left: 93px;
+    font-family: "Montserrat", sans-serif;
+    transform: scaleX(1.2);
+    font-size: 19px;
+    letter-spacing: 2px;
+    color: #856d47;
+    
+}
+#upcoming-prjct-text{
+    font-family: "Argesta Display";
+    font-size: 60px;
+    margin-top: -20px;
+
+}
+#uppro-para1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    margin-top: -20px;
+}
+#uppro-para2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 30px;
+}
+#uppro-para3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 30px;
+}
+#uppro-para4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+
+
+.form-request-callback{
+    height: 794px;
+    width: 538px;
+    background-color: white;
+    margin-top: -145px;
+    margin-left: 32px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(206, 205, 205);
+    
+
+}
+#rqst-text{
+    font-family: "Argesta Display";
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 16px;
+    color: #856d47;
+}
+#lbl-name{
+    margin-left: 22px;
+    font-size: 20px;
+    
+}
+#name-input{
+    border: none;
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: 15px;
+
+}
+.hr-line-callback{
+    width: 490px;
+    margin-top: 10px;
+}
+#lbl-no{
+    font-size: 20px;
+    margin-left: 22px;
+}
+#no-input{
+    border: none;
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#lbl-email{
+    font-size: 20px;
+    margin-left: 22px;
+}
+#email-input{
+    border: none;
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: 15px;
+    
+}
+#lbl-location{
+    font-size: 20px;
+    margin-left: 22px;
+}
+#location-input{
+    border: none;
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+#lbl-property{
+    font-size: 20px;
+    margin-left: 22px;
+}
+#property-input{
+    border: none;
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.policy-check-div{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+#checkbox{
+    height: 25px;
+    width: 25px;
+    margin-left: 22px;
+}
+#policy-check-text{
+    padding-left: 10px;
+}
+.policy-text-div{
+    display: flex;
+    
+}
+#policy-text1{
+    margin-left: 22px;
+}
+#policy-text2{
+    color: #856d47;
+    padding-left: 40px;
+    position: absolute;
+    margin-top: -34.2px;
+    margin-left: 248px;
+}
+#policy-text3{
+    margin-left: 22px;
+    margin-top: -15px;
+}
+#policy-text4{
+    color: #856d47;
+    margin-left: 53px;
+    margin-top: -34.3px;
+}
+#otp-button{
+    width: 490px;
+    height: 45px;
+    margin-left: 22px;
+    color: #856d47;
+    font-size: 18.6px;
+    background: white;
+}
+#otp-button:hover{
+    background: #856d47;
+    color: white;
+}
+.bird-div{
+    width: 100%;
+    height: 700px;
+}
+.mtz-vlc-mkjjc{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+
+
+}
+.bottom-div{
+    width: 100%;
+    height: 650px;
+    margin-top: -650px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.reach-us-div{
+    height: 450px;
+    width: 350px;
+    position: relative;
+    margin-left: 221px;
+    margin-top: -160px;
+}
+#reach-us-heading{
+    font-size: 25px;
+    color: #000000;
+}
+#coporate-address{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: -17px;
+    color: white;
+}
+#address{
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    margin-top: -14px;
+    color: white;
+}
+#sales-enq{
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    color: white;
+    margin-top: -5px;
+}
+#sales-no{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    margin-top: -22px;
+    color: white;
+}
+#other-enq{
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    color: white;
+    margin-top: -5px;
+}
+#other-enq-no{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    margin-top: -22px;
+    color: white;
+}
+#enq-email{
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    color: white;
+    margin-top: -5px;
+}    
+#email-properties{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    margin-top: -20px;
+    color: white;
+}
+.socialmedia{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.icon-tabler-brand-instagram{
+    margin-left: 18px;
+}
+.icon-tabler-brand-x{
+    margin-left: 18px;
+}
+.icon-tabler-brand-linkedin{
+    margin-left: 18px;
+}
+.icon-tabler-brand-youtube{
+    margin-left: 18px;
+}
+.Quick-Menu{
+    width: 220px;
+    height: 500px;
+    margin-left: 78px;
+    margin-top: -120px;
+}
+#Qk-menu-head{
+    font-size: 25px;
+    color: #000000;  
+       
+}
+.pr{
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    color: white;
+}
+.top-right-arrow{
+    height: 15px;
+    width: 15px;
+    padding-left: 10px;
+}
+.quick-link-div{
+    height: 500px;
+    width: 220px;
+    margin-left: 100px;
+    margin-top: -100px;
+}
+#quick-link-head{
+    font-size: 25px;
+    color: #000000;
+}
+.ql{
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    color: white;
+}
+.interior-design-div{
+    height: 300px;
+    width: 220px;
+    margin-left: 99px;
+    margin-top: -300px;
+}
+#int-design-head{
+    font-size: 25px;
+    color: #000000;
+}
+.inv{
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    color: white;
+}
+#bottom-line{
+    margin-top: -100px;
+    position: relative;
+    width: 1670px;
+}
+#copy-right{
+    margin-left: 220px;
+    font-size: 18px;
+    color: white;
+}
